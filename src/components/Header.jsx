@@ -24,6 +24,7 @@ export default function Header() {
             <button><Link to="delete-flower" style={{textDecoration: 'none', color: 'inherit'}}>Delete flower</Link></button>
         </div>
         <Outlet />
+        <p>Hello, world!</p>
         </>
     )
 }
